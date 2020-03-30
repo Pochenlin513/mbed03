@@ -10,6 +10,7 @@ int i;
 float ADCdata[128];
 
 int main(){
+  wait(5);
   for (i = 0; i < sample; i++){
     Aout = Ain;
     ADCdata[i] = Ain;
